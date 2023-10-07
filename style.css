@@ -19,10 +19,11 @@ body{
     display: inline;
     background-color: #C08497;
     color: white;
-    font-size: 1.25em;
+    font-size: 2vh;
     font-weight: bold;
     margin-left: 1vw;
-    align: center;
+    display: flex;
+    justify-content: center;
     font-family: 'Playfair Display', serif;
 }
 .linksgroup1 div{
@@ -34,11 +35,11 @@ body{
     border: 0.25vh solid black;
     background-color: #F7AF9D;
     transition: .4s;
-    font-size: .75em;
+    font-size: 2vw;
 }
 #home:hover, #gallery:hover, #source:hover, #about:hover{
     padding: .25vw;
-    font-size: large;
+    font-size: 3vw;
     transition: .4s;
     background-color: #f9d1c8;
 }
@@ -56,41 +57,39 @@ body{
     font-weight: bold;
 }
 .container{
-    margin-top: 3vh;
-    margin-left: 3vh;
-    margin-right: 3vh;
+    margin: 3vh 3vw;
+    padding: 0vh;
+    width: 91vw;
 }
 .linksgroup2{
     float: left;
     border: 0.25vh solid black;
     background-color: #B0D0D3;
     padding: 1vw;
-    padding-top: 3vw;
-    width: 10vw;
-    text-align: center;
     width: 14vw;
-    height: 57vh;
+    text-align: center;
+    height: auto;
 }
 .linksgroup2 div, .linksgroup2 span{
     background-color: #B0D0D3;
 }
 .linksgroup2 span {
+    display: block;
     font-weight: 900;
-    font-size: 1.25em;
+    font-size: 1.8vw;
 }
 .linksgroup2 div{
-    padding: 0.5vw;
+    padding: 0.75vw;
 }
 .links2{
-    margin-top: .75vw;
+    display: block;
     font-weight: 1em;
 }
 .links2 a{
     color: black;
     text-decoration: none;
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.25em;
-    text-size-adjust: 1vw;
+    font-size: 0.8vw;
 }
 #prod1, #prod2, #prod3, #prod4, #prod5, #prod6{
     border: 0.5vh outset black;
@@ -99,33 +98,39 @@ body{
     background-color: pink;
     opacity: .8;
     transition: .4s;
+    font-size: 1.35vw;
 }
 #prod1:hover, #prod2:hover, #prod3:hover, #prod4:hover, #prod5:hover, #prod6:hover{
     opacity: 1;
     font-weight: bolder;
-    padding: .5vw;
+    padding: .4vw;
     transition: .4s;
 }
-#one{
-    margin-top: 1vw;
-}
 #contentbox{
+    float: left;
     border: 0.25vh solid black;
-    margin-left: 18.5vw;
-    width: 59vw;
-    height: 80vh;
+    margin: 0vw 1vw;
+    width: 56vw;
+    height: auto;
     background-color: #FFCAD4;
+    overflow: auto;
 }
-#contentbox h1{
-    margin: 2vw;
+#contentbox h1 {
+    text-align: center;
+    margin: 2vw 2vw 0vw 2vw;
     background-color: #FFCAD4;
     font-family: 'Rubik', sans-serif;
+    font-size: 5vw;
 }
-#contentbox h1 span {
-    font-size: x-small;
+#contentbox h3 {
+    text-align: center;
+    margin: 0vw 2vw 2vw 2vw;
+    background-color: #FFCAD4;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25vw;
 }
 .bracelets img{
-    width: 12.5vw;
+    width: 12vw;
     padding: 0.5vh;
     background-color: #FFCAD4;
 }
@@ -135,21 +140,18 @@ body{
     justify-content: center;
 }
 #contentbox p{
-    position: relative;
     top: 1vw;
-    float: right;
     margin: 2.5vw;
     background-color: #FFCAD4;
     font-family: 'Poppins', sans-serif;
     font-size: 1.15vw;
+    text-align: justify;
 }
 #imagecontain{
-    float: right;
-    border: 1.25vh double black;
+    float: left;
+    border: 1vh double black;
     background-color: #FFCAD4;
-    position: relative;
-    bottom: 80.5vh;
-    width: 15vw;
+    width: 13vw;
 }
 #imagecontain div{
     display: flex;
@@ -157,8 +159,7 @@ body{
     justify-content: center;
 }
 #imagecontain img {
-    width: 13vw;
-    padding-top: 2vh;
+    padding-top: 2vw;
     background-color: #FFCAD4;
     max-width: 100%;
     max-height: 100%;
@@ -169,4 +170,5 @@ body{
     margin: 1vw;
     background-color: #FFCAD4;
     font-style: italic;
+    font-size: 1.25vw;
 }
