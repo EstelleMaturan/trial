@@ -57,7 +57,7 @@ body{
     font-weight: bold;
 }
 .container{
-    margin: 3vh 3vw;
+    margin: 3vh 6vw;
     padding: 0vh;
     width: 91vw;
 }
@@ -110,7 +110,7 @@ body{
     float: left;
     border: 0.25vh solid black;
     margin: 0vw 1vw;
-    width: 56vw;
+    width: 55vw;
     height: auto;
     background-color: #FFCAD4;
     overflow: auto;
@@ -151,7 +151,8 @@ body{
     float: left;
     border: 1vh double black;
     background-color: #FFCAD4;
-    width: 12vw;
+    width: 10vw;
+    height: auto;
 }
 #imagecontain div{
     display: flex;
