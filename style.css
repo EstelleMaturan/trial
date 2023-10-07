@@ -28,7 +28,7 @@ body{
 }
 .linksgroup1 div{
     background-color: #C08497;
-    margin-top: 0.25vw;
+    margin-top: 0.25vh;
 }
 #home, #gallery, #source, #about{
     padding: 0.25vw;
@@ -57,9 +57,9 @@ body{
     font-weight: bold;
 }
 .container{
-    margin: 3vh 5vw;
+    margin: 4vh 5vw;
     padding: 0vh;
-    width: 110vw;
+    width: 100vw;
 }
 .linksgroup2{
     float: left;
