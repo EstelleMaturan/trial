@@ -57,9 +57,9 @@ body{
     font-weight: bold;
 }
 .container{
-    margin: 3vh 6vw;
+    margin: 3vh 5vw;
     padding: 0vh;
-    width: 91vw;
+    width: 110vw;
 }
 .linksgroup2{
     float: left;
@@ -151,7 +151,7 @@ body{
     float: left;
     border: 1vh double black;
     background-color: #FFCAD4;
-    width: 10vw;
+    width: 14vw;
     height: auto;
 }
 #imagecontain div{
