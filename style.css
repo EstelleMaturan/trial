@@ -19,7 +19,7 @@ body{
     display: inline;
     background-color: #C08497;
     color: white;
-    font-size: 2vh;
+    font-size: 2.5vh;
     font-weight: bold;
     margin-left: 1vw;
     display: flex;
@@ -35,7 +35,7 @@ body{
     border: 0.25vh solid black;
     background-color: #F7AF9D;
     transition: .4s;
-    font-size: 2vw;
+    font-size: 1.25vw;
 }
 #home:hover, #gallery:hover, #source:hover, #about:hover{
     padding: .25vw;
@@ -151,7 +151,7 @@ body{
     float: left;
     border: 1vh double black;
     background-color: #FFCAD4;
-    width: 13vw;
+    width: 12vw;
 }
 #imagecontain div{
     display: flex;
